@@ -45,7 +45,7 @@ h1 {
   text-shadow: none;
   color: transparent;
   /* Image parameters */
-  background: url(img/ironhack-logo.png);
+  background: url(media/ironhack-logo.png);
   width: 350px;
   height: 376px;
   /* Centering */
@@ -63,4 +63,33 @@ h2 {
 
 h2 small {
   display: block;
+}
+
+video {
+  display: block;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
+  background: transparent url(media/background-video-poster.jpg) no-repeat;
+  background-size: cover;
+}
+
+.video-overlay {
+  /* Overlay style */
+  background-color: #222c37;
+  opacity: 0.9;
+  /* Stretch to full screen */
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -99;
 }
