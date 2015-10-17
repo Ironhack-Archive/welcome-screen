@@ -29,8 +29,27 @@ h4 small, h5 small, h6 small {
   font-size: 0.36em;
 }
 
+h1 {
+  /* Image replacement */
+  border: 0;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  /* Image parameters */
+  background: url(img/ironhack-logo.png);
+  width: 350px;
+  height: 376px;
+  /* Centering */
+  margin: 0 auto;
+}
+
 h1, h2 {
   font-size: 72px;
+}
+
+h2 {
+  margin-top: 50px;
+  margin-bottom: 0;
 }
 
 h2 small {
