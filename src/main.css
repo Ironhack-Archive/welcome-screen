@@ -57,12 +57,13 @@ h1, h2 {
 }
 
 h2 {
-  margin-top: 50px;
+  margin-top: 10px;
   margin-bottom: 0;
 }
 
 h2 small {
   display: block;
+  margin-top: 10px;
 }
 
 video {
