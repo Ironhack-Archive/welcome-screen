@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'circ';
+  src: url('fonts/circ.eot'); /* IE9 Compat Modes */
+  src: url('fonts/circ.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/circ.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/circ.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/circ.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/circ.svg#circ') format('svg'); /* Legacy iOS */
+}
+
+body {
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', sans-serif;
+  color: #a4bdd1;
+  background-color: #222c37;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'circ', 'Helvetica', sans-serif;
+  font-weight: normal;
+  color: #fff;
+}
+
+h1 small, h2 small, h3 small,
+h4 small, h5 small, h6 small {
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', sans-serif;
+  color: #a4bdd1;
+  font-size: 0.36em;
+}
+
+h1, h2 {
+  font-size: 72px;
+}
+
+h2 small {
+  display: block;
+}
